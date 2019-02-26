@@ -14,7 +14,7 @@ COPY . /app
 EXPOSE 80
 
 # Define environment variable
-ENV NAME new_neo4j
+ENV NAME World
 
 # Run app.py when the container launches
 #CMD ["python", "app.py"]
